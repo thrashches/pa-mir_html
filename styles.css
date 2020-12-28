@@ -1,0 +1,86 @@
+#main {
+    width: 100%;
+    
+    background: url(img/pexels-fauxels-3184454.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+#main:before {
+    content: "";
+    background: rgb(0, 0, 0, 0.6);
+    position: absolute;
+    background-attachment: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#main .container {
+    position: relative;
+    padding-top: 75px;
+    
+}
+
+#main h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+#main h2 {
+    color: white;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+#main button {
+    margin: 10px;
+}
+
+#cards {
+    position: relative;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.card {
+    background-color: #484848;
+    border-width: 1px;
+    border-color: white;
+}
+
+.card h5 {
+    color: white;
+}
+
+.card p {
+    color: white;
+    align-self: baseline;
+    text-align: justify;
+}
+
+#main footer {
+    color: white;
+    bottom: 0;
+    
+    text-align: center;
+    
+}
+
+#main #text {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    
+    
+}
+#main #text p {
+    text-align: justify;
+}
